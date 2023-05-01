@@ -1,0 +1,21 @@
+export  default {
+        cart:[],
+        dealerCart:[],
+        district:'',
+        checkCartProduct: false,
+        ownInfo:null,
+        city: null,
+        orderAmount: null,
+        cartHistory:null,
+        notifications: [],
+        orderList: [],
+        detailsOrderShow:[],
+        getAllSocial: [],
+        getSocialReactUser:[],
+        comment:[],
+        authUserAllPost: [],
+        getAllUser:[],
+        visible:false,
+        dealerOrderList:[],
+        dealerDetailsOrderShow:[]
+}

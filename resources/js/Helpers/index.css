@@ -1,0 +1,12 @@
+
+.router-link{
+    text-decoration: none;
+    color: #000;
+}
+.router-link:hover{
+    text-decoration: none;
+    color: #000;
+}
+label{
+    padding: 0 !important;
+}
