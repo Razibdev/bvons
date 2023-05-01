@@ -1,0 +1,91 @@
+/*
+$primary: #c9151b;
+$primary-secondary: #f5515f;
+$primary-medium-light: #f6d5d5;
+$primary-light: #fff2f1;
+$primary-dark: #1d2531;
+$primary-dark-secondary: #333e4f;
+$primary-dark-medium-gray: #5a6577;
+$primary-dark-gray: #9ca9be;
+$placeholder: #d0d3d6;
+$seperator: #e6e8eb;
+$background: #f5f6f7;
+$white: #fff;
+*/
+
+
+
+
+
+$primary: #1F1B33;
+$primary-secondary: rgba(31, 27, 51, 0.75);
+$primary-medium-light: rgba(31, 27, 51, 0.50);
+$primary-light: rgba(31, 27, 51, 0.25);
+
+
+$primary-dark: #1d2531;
+$primary-dark-secondary: #333e4f;
+$primary-dark-medium-gray: #5a6577;
+$primary-dark-gray: #9ca9be;
+$placeholder: #d0d3d6;
+$seperator: #e6e8eb;
+$background: #EBF5F5;
+$white: #fff;
+
+.bg-primary {
+    background-color: $primary !important;
+}
+
+$core-font: Uni Neue,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+$core-font-bold: Uni Neue Bold,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+$text-sm : .875rem;
+
+
+
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('fonts/UniNeueRegular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/UniNeueRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/UniNeueRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/UniNeueRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/UniNeueRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uni Neue Bold';
+    src: url('fonts/UniNeueBold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/UniNeueBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/UniNeueBold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/UniNeueBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/UniNeueBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.core-font {
+    font-family: $core-font;
+}
+
+.core-font-bold {
+    font-family: $core-font-bold;
+}
+
+
+.justify-content-evently {
+    justify-content: space-evenly;
+}
+
